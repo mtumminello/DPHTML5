@@ -18,6 +18,13 @@ div.columns{
 #center{
 color:red;
 }
+#title{
+			padding-bottom: 15px;
+			border-bottom-style:solid;
+			border-bottom-width:5px;
+			border-bottom-color:red;
+
+}
 #navbar{
 
 background-color:rgba(0,0,0,.5);
@@ -86,6 +93,13 @@ width: 300px;
 		#sidebar li:hover{
 
         padding-right: 10px;
+        border-right-width: 5px;
+        border-right-style:solid;
+        border-right-color:red;
+		}
+				#sidebar li a:visited{
+
+font-weight:bold;
         border-right-width: 5px;
         border-right-style:solid;
         border-right-color:red;
