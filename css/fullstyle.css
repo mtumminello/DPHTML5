@@ -1,5 +1,5 @@
 * {
-color:white;
+
   font-family: 'Roboto', sans-serif;
   }
 a{
@@ -59,7 +59,7 @@ h1{
 clear: right;
 float:right;
 }
-ul li{
+#sidebar li{
 list-style:none;
 text-align:right;
 padding-right:15px;
