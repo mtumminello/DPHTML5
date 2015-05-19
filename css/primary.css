@@ -2,7 +2,7 @@
   font-family: 'Roboto', sans-serif;
 }
 a{
-text-decoration:none;
+	text-decoration:none;
 }
 div.columns{
       -moz-column-count: 3;
@@ -15,71 +15,75 @@ div.columns{
 	  margin-top:100px;
 }
 
-#center{
-color:red;
+#navbar li #center{
+	color:red;
 }
-#title{
-			padding-bottom: 15px;
-			border-bottom-style:solid;
-			border-bottom-width:5px;
-			border-bottom-color:red;
-
+aside{
+	padding-top: 15px;
+	border-top-style:solid;
+	border-top-width:5px;
+	border-top-color:red;
 }
 #navbar{
-
-background-color:rgba(0,0,0,.5);
-text-align:center;
-padding-top:20px;
-padding-bottom:20px;
-padding-left:0;
-padding-right:20px;
-position:fixed;
-width:100%;
-border-style: none;
-margin-top:10px;
-
+	background-color:rgba(0,0,0,.5);
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:0;
+	padding-right:20px;
+	position:fixed;
+	width:100%;
+	border-style: none;
+	margin-top:10px;
 }
 	#navbar li{
-	display:inline;
+		display:inline;
 	}
 		#navbar li a{
-		padding-left:50px;
-		padding-right:50px;
-		padding-bottom:15px;
-		color:white;
+			padding-left:50px;
+			padding-right:50px;
+			padding-bottom:15px;
+			color:white;
 		}
 		
 			#navbar li a:hover{
-			border-bottom-style:solid;
-			border-bottom-width:5px;
-			border-bottom-color:red;
+				border-bottom-style:solid;
+				border-bottom-width:5px;
+				border-bottom-color:red;
 			}
-	
 
-	
 #titleDiv{
-margin-left:25px;
-padding-bottom:300px;
-padding-top:300px;
-float:left;
-margin-right:300px;
+	background-image: url("http://goo.gl/Vz7wPq");
+	width: 100%;
+	margin-left:25px;
+	padding-bottom:300px;
+	padding-top:300px;
+	float:left;
+	margin-right:300px;
 }
-#marquee{
-margin-top:200px;
+#title{
+	font-size:4em;
+}
+aside{
+		font-size:1em;
+		width: 300px;
+        border-top-width: 5px;
+        border-top-style:solid;
+        border-top-color:red;
 }
 #scrollImage{
-display:block;
-margin-left:50%;
-margin-right:50%;
-margin-top:700px;
-position: fixed;
+	display:block;
+	margin-left:50%;
+	margin-right:50%;
+	bottom:10px;
+	position:fixed;
 }
 #sidemenu{
-margin-top:300px;
-position:fixed;
-float:right;
-right: 15px;
-width: 300px;
+	margin-top:300px;
+	position:fixed;
+	float:right;
+	right: 15px;
+	width: 300px;
 }
 	#sidebar li{
 			list-style:none;
@@ -87,21 +91,13 @@ width: 300px;
 			padding-right:15px;
 			padding-bottom: 5px;
 			padding-top: 5px;
-			color:darkgrey;
+			color:black;
 			cursor:pointer;
 		}
 		#sidebar li:hover{
-
-        padding-right: 10px;
-        border-right-width: 5px;
-        border-right-style:solid;
-        border-right-color:red;
-		}
-				#sidebar li a:visited{
-
-font-weight:bold;
-        border-right-width: 5px;
-        border-right-style:solid;
-        border-right-color:red;
+				padding-right: 10px;
+				border-right-width: 5px;
+				border-right-style:solid;
+				border-right-color:red;
 		}
 
