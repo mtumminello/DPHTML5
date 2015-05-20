@@ -125,7 +125,7 @@ margin-left:50px;
 		}
 		#sidebar li:hover{
 				visibility:visible !important;
-				color:red !important;
+				color:orange !important;
 		}
 		
 		#sidebar li:hover span{
