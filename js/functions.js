@@ -1,23 +1,23 @@
 function navClick(id){
-	resetCSS();
+			
+			resetCSS();
+			
 			var mId = "m"+id;
+			var folder="url('./images/";
+			var ext = ".jpg')";
+			var imagefile = folder+mId+ext;
+			
 			$(".marqueeMain").css("display","none");
 			$("#"+mId).css("display","block");
 			$("#"+id).css("color","white");
 			$("#"+id+" span").css("visibility","visible");
 			$("#"+id+" span").css("color","red");
+			$("#titleDiv").css("background-image",imagefile);
 }
 
-function resetCSS(){
+function resetCSS(s){
 			$(".marquee").css("display","none");
 			$("#sidebar li").css("color","rgba(179,221,242,1)");
 			$("#sidebar li span").css("visibility","hidden");
-			$("#sidebar li").css(":hover","hidden");
+
 }
-/* $(document).ready(function(){
-    $("#sidebar li").hover(function(){
-        $("#sidebar li").css("color","white");
-        },function(){
-        $("#sidebar li").css("color","rgba(179,221,242,1)");
-    });
-} */
