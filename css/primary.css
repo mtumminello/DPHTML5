@@ -82,7 +82,6 @@ border-style:solid;
 	margin-right:300px;
 }
 
-
 #titleDiv .title{
 margin-left:50px;
 }
@@ -104,7 +103,6 @@ margin-left:50px;
 	margin-left:50%;
 	margin-right:50%;
 	bottom:10px;
-
 }
 #sidemenu{
 	background-color:rgba(0,0,0,.75);
@@ -116,8 +114,7 @@ margin-left:50px;
 	height: 275px;
 }
 	#sidebar li{
-	margin-top:0px;
-
+			margin-top:0px;
 			list-style:none;
 			text-align:right;
 			padding-right:15px;
@@ -125,6 +122,10 @@ margin-left:50px;
 			padding-top: 5px;
 			color:rgba(179,221,242,1);
 			cursor:pointer;
+		}
+		#sidebar li:hover{
+				visibility:visible !important;
+				color:red !important;
 		}
 		
 		#sidebar li:hover span{
