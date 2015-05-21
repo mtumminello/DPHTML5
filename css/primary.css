@@ -164,7 +164,7 @@ a{
 	 column-count: 1;
 	 column-width: auto;
      column-gap: 20px;
-	 margin-top:200px;
+	 margin-top:300px;
 
 }
 .articleImage{
@@ -219,6 +219,13 @@ display:none;
 #marquee{
 display:none;
 }
+.title{
+display:block;
+margin-top:50px;
+margin-left: 50px;
+
+}
+
 }
 
 
