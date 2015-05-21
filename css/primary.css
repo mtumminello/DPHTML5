@@ -7,15 +7,15 @@ a{
 #news{
      -moz-column-count: 3;
      -moz-column-gap: 20px;
-	 -moz-column-width: 300px;
+	 -moz-column-width: 250px;
      -webkit-column-count: 3;
      -webkit-column-gap: 20px;
-	 -webkit-column-width: 300px;
+	 -webkit-column-width: 250px;
 	 -ms-column-count: 3;
 	 -ms-column-gap: 20px;
-	 -moz-column-width: 300px;
+	 -moz-column-width: 250px;
 	 column-count: 3;
-	 column-width: 300px;
+	 column-width: 250px;
      column-gap: 20px;
 	 float:left;
 	 margin-left:25px;
@@ -33,7 +33,7 @@ height: 100%;
 	color:red;
 }
 .smallTitle{
-	padding-top: 15px;
+	
 	border-top-style:solid;
 	border-top-width:5px;
 	border-top-color:red;
@@ -72,11 +72,11 @@ border-style:solid;
 #titleDiv{
 	background-image: url("http://goo.gl/Vz7wPq");
 	background-repeat:no-repeat;
-	background-size: 100% 100%;
+	background-size: 1500px auto;
 	
 	width: 100%;
 	margin-left:25px;
-	padding-bottom:300px;
+	padding-bottom:200px;
 	padding-top:300px;
 	float:left;
 	margin-right:300px;
@@ -93,10 +93,9 @@ margin-left:50px;
 }
 .smallTitle{
 		font-size:1em;
-		width: 300px;
-        border-top-width: 5px;
-        border-top-style:solid;
-        border-top-color:red;
+		width: 375px;
+		padding-top: 20px;
+		font-weight:bold;
 }
 #scrollImage{
 	display:block;
@@ -105,7 +104,7 @@ margin-left:50px;
 	bottom:10px;
 }
 #sidemenu{
-	background-color:rgba(0,0,0,.75);
+	background-color:rgba(0,0,0,.5);
 	margin-top:200px;
 	position:fixed;
 	float:right;
@@ -121,6 +120,7 @@ margin-left:50px;
 			padding-bottom: 5px;
 			padding-top: 5px;
 			color:rgba(179,221,242,1);
+
 			cursor:pointer;
 		}
 		#sidebar li:hover{
