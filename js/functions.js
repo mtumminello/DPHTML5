@@ -18,10 +18,10 @@ function navClick(id){
 function navMobileClick(){
 	var dispValue = $(".mainNav").css("display");
 	if(dispValue == "none"){
-		$(".mainNav li").css("display","block");
+		$(".mainNav").css("display","block");
 	}	
 	else{
-	$(".mainNav li").css("display","none");
+	$(".mainNav").css("display","none");
 	}	
 }
 

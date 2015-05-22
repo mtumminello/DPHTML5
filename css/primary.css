@@ -145,7 +145,7 @@ display:none;
 /* .mobile{
 display:none;
 } */
-.mobile ul li{
+#mobileNav{
 display:inline;
 }
 #centerMobile{
