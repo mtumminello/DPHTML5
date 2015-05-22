@@ -54,7 +54,7 @@ border-style:solid;
 	margin-top:10px;
 }
 	#navbar li{
-		display:inline;
+		display:inline !important;
 	}
 		#navbar li a{
 			padding-left:50px;
