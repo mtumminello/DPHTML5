@@ -165,7 +165,7 @@ padding-top:20px;
 display:none;
 }
 
-@media screen and (max-device-width: 800px) and (orientation: portrait){
+@media screen and (orientation: portrait){
 *{
   font-family: 'Roboto', sans-serif;
   font-size: 1.1em;
