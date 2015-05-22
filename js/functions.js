@@ -15,6 +15,17 @@ function navClick(id){
 			$("#titleDiv").css("background-image",imagefile);
 }
 
+function navMobileClick(){
+	var dispValue = $(".mainNav").css("display");
+	if(dispValue == "none"){
+		$(".mainNav").css("display","block");
+	}	
+	else{
+	$(".mainNav").css("display","none");
+	}	
+}
+
+
 function resetCSS(s){
 			$(".marquee").css("display","none");
 			$("#sidebar li").css("color","rgba(179,221,242,1)");
