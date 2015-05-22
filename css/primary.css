@@ -145,7 +145,7 @@ display:none;
 /* .mobile{
 display:none;
 } */
-#mobileNav{
+#mobileNav li{
 display:inline;
 }
 #centerMobile{
@@ -219,7 +219,7 @@ width:100%;
 
 #centerMobile{
 float: right;
-padding-right:calc(50% - 100px);
+padding-right:50px;
 padding-bottom:20px;
 padding-top:5px;
 }
