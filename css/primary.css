@@ -165,7 +165,10 @@ padding-top:20px;
 display:none;
 }
 
-@media screen and (orientation: portrait){
+@media (orientation:portrait){
+.mobileNav{
+display:inline;
+}
 *{
   font-family: 'Roboto', sans-serif;
   font-size: 1.1em;
