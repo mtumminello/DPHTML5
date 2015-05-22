@@ -167,7 +167,7 @@ display:none;
 
 @media (orientation:portrait){
 .mobileNav{
-display:block;
+display:inline;
 }
 *{
   font-family: 'Roboto', sans-serif;
@@ -221,12 +221,13 @@ text-align:right;
 
 #centerMobile{
 float: right;
-padding-right:50px;
+padding-right:25px;
 padding-bottom:20px;
 padding-top:5px;
 }
 #centerMobile a{
-color:red;
+color:red !important;
+font-weight:bolder
 }
 #menuMobile{
 color:white;
@@ -276,9 +277,9 @@ display:none;
 width: 100%;
 height: auto;
 }
-#scrollImage{display:none;}
-#marquee{display:none;}
-#center{display:none;}
+#scrollImage{display:none  !important;}
+#marquee{display:none !important;}
+#center{display:none !important;}
 }
 
 
