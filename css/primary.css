@@ -167,7 +167,7 @@ display:none;
 
 @media (orientation:portrait){
 .mobileNav{
-display:inline;
+display:block;
 }
 *{
   font-family: 'Roboto', sans-serif;
@@ -179,7 +179,23 @@ a{
 ul{
 list-style:none;
 }
+#news{
+     -moz-column-count: 1;
+     -moz-column-gap: 20px;
+	 -moz-column-width: auto;
+     -webkit-column-count: 1;
+     -webkit-column-gap: 20px;
+	 -webkit-column-width: auto
+	 -ms-column-count: 1;
+	 -ms-column-gap: 20px;
+	 -moz-column-width: auto;
+	 column-count: 1;
+	 column-width: auto;
+     column-gap: 20px;
+	 float:left;
+	 margin-top:100px;
 
+}
 #navbar{
 background-color:rgba(0,0,0,.5);
 height: 50px;
