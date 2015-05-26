@@ -7,16 +7,16 @@ a{
 #news{
      -moz-column-count: 3;
      -moz-column-gap: 20px;
-	 -moz-column-width: 250px;
+
      -webkit-column-count: 3;
      -webkit-column-gap: 20px;
-	 -webkit-column-width: 250px;
-	 -ms-column-count: 3;
-	 -ms-column-gap: 20px;
-	 -moz-column-width: 250px;
+
+         -ms-column-count: 3;
+         -ms-column-gap: 20px;
+
 	 column-count: 3;
-	 column-width: 250px;
-     column-gap: 20px;
+
+     	 column-gap: 20px;
 	 float:left;
 	 margin-left:25px;
 	 margin-right:300px;
