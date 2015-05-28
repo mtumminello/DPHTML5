@@ -175,7 +175,7 @@ padding-top:20px;
 .mobileNav{
 display:none;
 }
-@media only screen{
+@media only screen and (orientation: portrait){
 .mobileNav{
 display:inline;
 }
