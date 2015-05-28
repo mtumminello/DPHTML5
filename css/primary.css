@@ -175,7 +175,9 @@ padding-top:20px;
 .mobileNav{
 display:none;
 }
-@media only screen and (orientation: portrait){
+@media screen 
+and (max-device-width: 480px)
+{
 .mobileNav{
 display:inline;
 }
@@ -212,8 +214,6 @@ background-color:rgba(0,0,0,.5);
 height: 100px;
 
 text-align:right;
-
-
 }
 	#navbar ul{
 		margin-top:50px;
