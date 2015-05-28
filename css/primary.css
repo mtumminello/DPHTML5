@@ -72,7 +72,7 @@ border-style:solid;
 #titleDiv{
 	background-image: url("http://goo.gl/Vz7wPq");
 	background-repeat:no-repeat;
-	background-size: 1500px auto;
+	background-size: 100% auto;
 	
 	width: 100%;
 	margin-left:25px;
@@ -127,6 +127,9 @@ margin-left:50px;
 				visibility:visible !important;
 				color:red !important;
 		}
+				#sidebar li:hover{
+				opacity:100;
+		}
 		
 		#sidebar li:hover span{
 				visibility:visible !important;
@@ -140,7 +143,12 @@ margin-left:50px;
 			
 .marquee{
 display:none;
+transition: display 10s;
+-webkit-transition: display 10s;
+-moz-transition: display 10s;
+-ms-transition: display 10s;
 }
+
 
 /* .mobile{
 display:none;
@@ -149,13 +157,16 @@ display:none;
 display:inline;
 }
 #centerMobile{
+font-size:1.5em;
 color:red;
 float: right;
-padding-right:100px;
+padding-right:50%;
+
 padding-bottom:20px;
 padding-top:20px;
 }
 #menuMobile{
+font-size:1.5em;
 color:black;
 float: right;
 padding-bottom:20px;
@@ -164,8 +175,8 @@ padding-top:20px;
 .mobileNav{
 display:none;
 }
-
-@media (orientation:portrait){
+@media only screen{
+/* @media (orientation:portrait){ */
 .mobileNav{
 display:inline;
 }
@@ -227,10 +238,10 @@ padding-top:5px;
 }
 #centerMobile a{
 color:red !important;
-font-weight:bolder
+font-weight:bolder;
 }
 #menuMobile{
-color:white;
+color:white;!important;
 float: right;
 padding-right:25px;
 padding-bottom:20px;
